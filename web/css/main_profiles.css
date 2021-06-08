@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    font-family: monterrat, sans-serif;
+    flex-direction: column;
+}
+
+/*form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}*/
+
+/*input{*/
+/*    margin: 10px 0;*/
+/*    padding: 10px;*/
+/*    border: unset;*/
+/*    border-bottom: 2px solid #e3e3e3;*/
+/*    !*outline: none;*!*/
+/*}*/
+
+/*button{*/
+/*    padding: 10px;*/
+/*    background: #fffc2a;*/
+/*    !*border: unset;*!*/
+/*    cursor: pointer;*/
+/*}*/
+
+.dobavlenie_photo{
+    margin: 0 auto;
+    height: 15vh;
+    /*width: -10vw;*/
+}
+
+.avatar{
+    /*left: 50%;*/
+    /*height: 70%;*/
+}
+
+.photografi{
+    border-radius: 30px;
+    height: 25vh;
+}
+
+
+/* Стиль загрузки файла */
+.inputfile{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    color: #665dfc;
+}
+
+.inputfile + label {
+    cursor: pointer;
+    font-size: 25px;
+}
